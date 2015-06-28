@@ -1,4 +1,4 @@
-#Returns "1" if mode is equal to mean
+# Returns "1" if mode is equal to mean
 # else "0"
 
 def MeanMode(arr): 
