@@ -22,4 +22,4 @@ def isPrime(num):
             if num % div == 0:
                 return False
         return True
-print PrimeFinder(raw_input())    
+print (PrimeFinder(input())  )  
