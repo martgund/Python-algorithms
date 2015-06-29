@@ -1,14 +1,11 @@
-def isPrime(num): 
-
-  
-  for i in range(2,num):
-    if (num % i) == 0:
-    	return "false"
+# Checks if number is a prime
+def isPrime(num):
+    if num < 2:
+        return False
+    if num == 2:
+        return True
     else:
-      return "true"
-
-  return "false"
-    
-    
-
-print isPrime(raw_input())           
+        for div in range(2,num):
+            if num % div == 0:
+                return False
+        return True
