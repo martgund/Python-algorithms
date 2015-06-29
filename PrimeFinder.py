@@ -2,15 +2,15 @@
 
 def PrimeFinder(num): 
   
-  primes = []
+  prime = None
   counter = 0
   number = 2
   while (counter < num):
     if isPrime(number):
       counter +=1
-      primes.append(number)
+      prime = number
     number +=1
-  return  primes[num-1]
+  return  prime
     
 def isPrime(number):
     if number==2 or number==3: return True
